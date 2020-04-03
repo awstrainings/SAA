@@ -5,7 +5,7 @@
 <center>
 <IMG SRC="RoundAnimal.jpg" ALT="RollinWild"><br>
 <?php
-$eip = file_get_contents('http://169.254.169.254/latest/meta-data/private-ipv4');
+$eip = file_get_contents('http://169.254.169.254/latest/meta-data/local-ipv4');
 echo $eip;
 ?>
 </center>
